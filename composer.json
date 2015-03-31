@@ -1,0 +1,23 @@
+{
+  "name": "skmetaly/twitch-api",
+  "description": "Laravel twitch api",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paul Bele",
+      "email": "contact@seblaze.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Skmetaly\\TwitchApi\\": "src"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "guzzlehttp/guzzle": "~5.0@dev"
+  },
+  "require-dev": {
+    "phpdocumentor/phpdocumentor": "dev-master"
+  }
+}

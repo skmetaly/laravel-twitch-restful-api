@@ -1,0 +1,18 @@
+<?php
+namespace Skmetaly\TwitchApi\Facades;
+
+use Illuminate\Support\Facades\Facade;
+
+/**
+ * Class TwitchApiServiceFacade
+ * @package Skmetaly\TwitchApi\Facades
+ */
+class TwitchApiServiceFacade extends Facade{
+
+    /**
+     * Get the registered name of the component.
+     *
+     * @return string
+     */
+    protected static function getFacadeAccessor() { return 'Skmetaly\TwitchApi\Services\TwitchApiService'; }
+}
