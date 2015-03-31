@@ -1,5 +1,5 @@
 {
-  "name": "skmetaly/twitch-api",
+  "name": "skmetaly/laravel-twitch-restful-api",
   "description": "Laravel twitch api",
   "license": "MIT",
   "authors": [
